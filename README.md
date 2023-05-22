@@ -70,15 +70,9 @@ The project follows the following structure:
 - `outputs.tf`: Specifies the outputs to display after provisioning the infrastructure.
 - `scripts/userdata.sh`: A script that is executed when the EC2 instance starts and installs Apache web server.
 
-Feel free to modify and extend the project as per your requirements.
+Remember to destroy the infrastructure once you're done with the project to avoid unnecessary costs:
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Feel free to modify the README file to suit your specific project requirements and provide additional information if needed.
+Open a terminal and navigate to the project directory.
+Run terraform destroy to destroy all the created resources.
+Confirm the destruction when prompted.
+This will remove all the resources created by Terraform.
